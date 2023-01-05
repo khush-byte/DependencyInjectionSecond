@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             .contextModule(ContextModule(application))
             .build()
     }
+    //private val component = DaggerApplicationComponent.create()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         component.inject(this)

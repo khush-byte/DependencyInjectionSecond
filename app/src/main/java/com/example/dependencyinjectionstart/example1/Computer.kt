@@ -1,4 +1,4 @@
-package com.example.dependencyinjectionstart.example2.data.network.example1
+package com.example.dependencyinjectionstart.example1
 
 class Computer (
     val monitor: Monitor,
